@@ -1,0 +1,13 @@
+server:
+  port: 8017
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/export?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
